@@ -2,24 +2,31 @@
 This module has utf-8 emojis everywhere and local classes.
 Good luck!
 
-Here are some emoji: 
-\U0001F44B \U0001F44D \U0001F44E \U0001F44C
+Here is a list of emoji as utf-8 characters:
+🤪 🤫 🤬 🤭 🤮 🤯 🤰 🤱 🤲 🤳 🤴 🤵 🤶 🤷
 
 Here is "Hello, my friend is a stick" written in chinese: 
-\U0001F64C \U0001F3F7 \U00002764 \U00002795 \U00002709 \U00002728 \U00002764
-🤪
+🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪
 """
 def friendly_message():
-    """Display an emoji-filled message"""
+    """Display an emoji-filled message, e.g. 🤵 🤶 🤷.
+    Or, 🤪 🤫 🤬.
+    I start at byte 304, and end at byte 692.
+    """
     print("Hello stranger")
-    print("\U0001F646 \U0001F646 \U0001F646 \U0001F646")
-    print("🤪")
+    mes = "🤪 🤫 🤬 🤭 🤮 🤯 🤰 🤱 🤲 🤳 🤴 🤵 🤶 🤷"
+    print(mes)
+    print("The message was %s characters but %s bytes long." % (len(mes), len(bytes(mes, 'utf-8'))))
+    
+def multiply_by_3(x):
+    """🤪 🤫 🤬 Multiply the input `x` by 3."""
+    return x * 3
  
 def has_a_class_inside():
     """A function with a local class"""
 
     class MyClass:
-        """A local class"""
+        """A local class. 🤬 🤭"""
 
         def __init__(self, name):
             """A local class"""
