@@ -27,7 +27,7 @@ def function_you_can_never_guess(x):
     return "a"
     
 def failing_my_own_test(x):
-    """I fail my own test. Don't try to synthesize me."""
+    """I fail my own test. Don't try to guess me."""
     return 1
  
 def has_a_class_inside():
