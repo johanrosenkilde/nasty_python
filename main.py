@@ -21,6 +21,14 @@ def friendly_message():
 def multiply_by_3(x):
     """🤪 🤫 🤬 Multiply the input `x` by 3."""
     return x * 3
+    
+def function_you_can_never_guess(x):
+    """You'll never guess what this function is supposed to do."""
+    return "a"
+    
+def failing_my_own_test(x):
+    """I fail my own test. Don't try to synthesize me."""
+    return 1
  
 def has_a_class_inside():
     """A function with a local class"""
