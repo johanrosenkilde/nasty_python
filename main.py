@@ -4,6 +4,8 @@ Good luck!
 
 Here is a list of emoji as utf-8 characters:
 🤪 🤫 🤬 🤭 🤮 🤯 🤰 🤱 🤲 🤳 🤴 🤵 🤶 🤷
+This character takes up 2 utf-16 code units
+𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷𐐷
 
 Here is "Hello, my friend is a stick" written in chinese: 
 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪
