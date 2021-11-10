@@ -30,7 +30,15 @@ def function_you_can_never_guess(x):
     
 def failing_my_own_test(x):
     """I fail my own test. Don't try to guess me."""
+    
     return 1
+
+def arachid(x):
+    """TODO: Write docstring"""
+    return x * 2
+
+# This is the doc comment for the function archid
+# """Return x * 2"""
  
 def has_a_class_inside():
     """A function with a local class"""
