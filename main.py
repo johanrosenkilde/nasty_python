@@ -34,11 +34,11 @@ def failing_my_own_test(x):
     return 1
 
 def arachid(x):
-    """TODO: Write docstring"""
-    return x * 2
+    """TODO: This function is missing a docstring"""
+    return x % 2 == 0
 
 # This is the doc comment for the function archid
-# """Return x * 2"""
+# """Should true if x is even"""
  
 def has_a_class_inside():
     """A function with a local class"""
